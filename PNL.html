@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Site Internet Présentation de ma collection de pins Disney" />
+        <meta name="author" content="Quentin Santais" />
+        <title>Pins Standard - PinQS</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">Pins QS</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Acceuil</div>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Acceuil
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Pages</div>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Pins & Clé
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="PNL.html">Pins Standard</a>
+                                </nav>
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="PL.html">Pins Edition Limité</a>
+                                </nav>
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="PCML.html">Pins CastMember</a>
+                                </nav>
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="CléDisney.html">Clé Attraction</a>
+                                </nav>
+                            </div>
+                            <div class="sb-sidenav-menu-heading">Liste d'Envie</div>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoute" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Envie
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayoute" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="ListeEnvie.html">Vers La Liste</a>
+                                </nav>
+                            </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Pins Standard</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active"></li>
+                        </ol>
+                        <div class="row"> <!--TODO: Ligne N°1-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Alien - Buzz L'éclair
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Alien.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 25/05/2019</p>
+                                        <p>Prix d'achat : 8 €</p>
+                                        <p>Prix Parc : 8€ </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Maléfique - Are You Brave
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/AreyoubraveMaléfique.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 05/10/2019</p>
+                                        <p>Prix d'achat : 12€</p>
+                                        <p>Prix Parc : 7€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Baymax
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/BMAX.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 14/02/2015</p>
+                                        <p>Prix d'achat : 7€</p>
+                                        <p>Prix Parc : 7€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Big Thunder Mountain - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/BTM.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 11/09/2021</p>
+                                        <p>Prix d'achat : 10€</p>
+                                        <p>Prix Parc : 10€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°2-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Clé Tower Of Terror - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/CléTot.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 05/12/2015</p>
+                                        <p>Prix d'achat : 10€</p>
+                                        <p>Prix Parc : 10€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Dingo - Phantom Manor
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/DingoPM.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 23/10/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Docteur Facilier - Glow in the Dark 
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/GlowDRFacilier.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 02/10/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Evil Queen - Glow in the Dark 
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/GlowEvilQueen.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 02/10/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°3-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Hades - Glow in the Dark 
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/GlowHades.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 02/10/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Maléfique - Glow in the Dark 
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/GlowMalefique.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 02/10/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Ursula - Glow in the Dark 
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/GlowUrsula.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 02/10/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        GroGu dans sa capsule
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/GrogouCapsule.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 05/12/2020</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°4-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Indiana Jones - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Indiana.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 08/01/2022</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        It's small world - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="./Img/itssamallworld.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 28/08/2021</p>
+                                        <p>Prix d'achat : 10€</p>
+                                        <p>Prix Parc : 10€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Mickey Steam Boat
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/MickeySteamBoat.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 02/05/2009</p>
+                                        <p>Prix d'achat : 6€</p>
+                                        <p>Prix Parc : 6€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Oogie Boogie - Glow in the dark
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Oggie Boogie.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 13/10/2018</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°5-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Medaillion Phantom Manor
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/PhantomManoir.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 27/04/2013</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Piece Pirate des caraibes
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/PiecePirate.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : ???</p>
+                                        <p>Prix d'achat : ??? €</p>
+                                        <p>Prix Parc : ???</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Pirate de caraibes - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Piratedecaraibe.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 04/01/2014</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Star Tours - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Startour.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 25/03/2017</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°6-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Bac a linge
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchBacALinge.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 05/02/2022</p>
+                                        <p>Prix d'achat : 11€</p>
+                                        <p>Prix Parc : 11€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Big Thunder Mountain
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchBTM.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 11/09/2021</p>
+                                        <p>Prix d'achat : 10€</p>
+                                        <p>Prix Parc : 10€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Sommeil
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchDodo.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 11/09/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Stitch - Attaque Pistolet
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchGun.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 12/03/2022</p>
+                                        <p>Prix d'achat : 9€</p>
+                                        <p>Prix Parc : 9€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°7-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - It's Small Wolrd
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchISW.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 28/08/2021</p>
+                                        <p>Prix d'achat : 10€</p>
+                                        <p>Prix Parc : 10€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Costume Licorne
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Stitchlicorne.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 14/08/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Pirate des caraibes
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchPirate.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 27/11/2021</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Stitch - Phantom Manor
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchPM.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 23/10/2021</p>
+                                        <p>Prix d'achat : 13€</p>
+                                        <p>Prix Parc : 13€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°8-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Pouce Levée
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchPouce.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 05/02/2022</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Rock
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchRock.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : ????</p>
+                                        <p>Prix d'achat : ??? €</p>
+                                        <p>Prix Parc : ???</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Saint Valentin
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchSaintValentin.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 12/02/2022</p>
+                                        <p>Prix d'achat : 11€</p>
+                                        <p>Prix Parc : 11€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Stitch - Tour de la terreur
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchTOT.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 08/02/2022</p>
+                                        <p>Prix d'achat : 10€</p>
+                                        <p>Prix Parc : 10€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°9-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Stitch - Triste
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/StitchTriste.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 14/08/2022</p>
+                                        <p>Prix d'achat : 7€</p>
+                                        <p>Prix Parc : 7€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Tic & Tac - Phantom Manor
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/TicTacPM.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 23/10/2021</p>
+                                        <p>Prix d'achat : 13€</p>
+                                        <p>Prix Parc : 13€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Tower Of Terror - Série Attraction
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/Tot.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 04/01/2014</p>
+                                        <p>Prix d'achat : 8€</p>
+                                        <p>Prix Parc : 8€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Tower Of Terror - Are you Brave 
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/TotAreYouBrave.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 05/10/2019</p>
+                                        <p>Prix d'achat : 7€</p>
+                                        <p>Prix Parc : 7€</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!--TODO: Ligne N°10-->
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        CastMember 30 Ans Mickey
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="/Img/PinCM30ans.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : 2022</p>
+                                        <p>Prix d'achat : 12€</p>
+                                        <p>Prix Parc : 4€</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Derniere Acquisition
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="https://www.picclickimg.com/d/l400/pict/283505107374_/DISNEY-pin-cast-member-disneyland-paris.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : </p>
+                                        <p>Prix d'achat : ??? €</p>
+                                        <p>Prix Parc : ???</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        Derniere Acquisition
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="https://www.picclickimg.com/d/l400/pict/283505107374_/DISNEY-pin-cast-member-disneyland-paris.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : </p>
+                                        <p>Prix d'achat : ??? €</p>
+                                        <p>Prix Parc : ???</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-bar me-1"></i>
+                                        Dernier Dans La Liste Des Envies
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="aligncenter">
+                                            <img src="https://www.picclickimg.com/d/l400/pict/283505107374_/DISNEY-pin-cast-member-disneyland-paris.jpg" class="img-fluid" alt="Responsive image">
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p>Date de sorite : </p>
+                                        <p>Prix d'achat : ??? €</p>
+                                        <p>Prix Parc : ???</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2022</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+</html>
